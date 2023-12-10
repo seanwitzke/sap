@@ -1,0 +1,470 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+
+/* Add your custom styles here... */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+h1, h2, h3, h4, h5, h6, a, p, li, button, strong {
+font-family: 'Work Sans' !important;
+letter-spacing: -0.04em !important;
+}
+
+p {
+font-size: 16px !important;
+line-height: 1.6em !important;
+}
+
+.gc-c-dhzjXW.gc-c-iTKOFX.gc-c-cdWtlk .gc-c-VjQXH.gc-c-VjQXH-cFZgux-size-headline.gc-c-jTNYrN {
+	font-weight: 500 !important;
+	line-height: 1.3em !important;
+}
+
+.gc-c-hFRvnN.gc-c-hFRvnN-cECnWD-variant-link {
+	text-decoration: none !important;
+	font-weight: 400 !important;
+}
+
+
+/* Accordion Title Fonts */
+h6 .gc-c-fKlzgm {
+	font-size: 18px !important;
+	font-weight: 400 !important;
+}
+
+/*
+
+.navbar-left:after {
+	margin-left: 10px !important;
+	content: "St. Anthony of Padua" !important;
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	font-family: 'Work Sans' !important;
+	letter-spacing: 0.04em !important;
+	font-size: 16px !important;
+}
+
+*/
+
+.new-site-title {
+	margin-left: 10px !important;
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	font-family: 'Work Sans' !important;
+	letter-spacing: 0.04em !important;
+	font-size: 16px !important;
+}
+
+.navbar-brand {
+	display: none !important;
+}
+
+
+
+.divider.ml-4.h-50 {
+	display: none !important;
+}
+
+/* HIDE MAIN CENTER LOGO NAV */
+
+:root :where(.rails-element-root) .variant-expanded.navbar-brand, :root .rails-element-root .variant-expanded.navbar-brand, .org-theme :where(.rails-element-root) .variant-expanded.navbar-brand, .org-theme .rails-element-root .variant-expanded.navbar-brand {
+	display: none !important;
+}
+
+/* END HIDE MAIN CENTER LOGO NAV */
+
+/* NAV LINKS RESTYLE */
+
+.nav.nav-links .nav-link {
+	text-transform: uppercase !important;
+	font-weight: 500 !important;
+	letter-spacing: 0.04em !important;
+	font-size: 15px !important;
+	font-family: 'Work Sans' !important;
+	
+}
+
+.nav-link-parent.d-flex.align-items-center {
+	text-transform: uppercase !important;
+	font-weight: 500 !important;
+	letter-spacing: 0.04em !important;
+	padding: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+	border-bottom: 3px solid #ffffff;
+	font-size: 15px !important;
+	font-family: 'Work Sans' !important;
+}
+
+.nav-link.align-items-center.d-none.d-md-flex:hover, .nav-link.align-items-center.d-none.d-lg-flex:hover, .nav-link.align-items-center.d-none.d-xl-flex:hover {
+    border-bottom: 3px solid #000000 !important;
+}
+
+/* END NAV LINKS RESTYLE */
+
+/* HIDE MORE BUTTON IN NAV */
+
+.nav-link.global-nav-trigger.global-nav-btn.d-md-flex {
+	display: none !important;
+}
+
+/* END HIDE MORE BUTTON IN NAV */
+
+/* RESTYLE GENERIC HERO */
+
+.gc-c-fGHEql .gc-c-ejKCwK .gc-c-fZCLQP.gc-c-fZCLQP-gTjmqS-align-left {
+    align-items: flex-end !important;
+    max-width: 480px !important;
+	padding-bottom: 110px !important;
+	position: absolute !important;
+	bottom: 0 !important;
+}
+
+.gc-c-ejKCwK-igbvpjd-css {
+	min-height: 580px !important;
+}
+
+/* RESTYLE HOME HERO */
+
+.gc-c-fGHEql.gc-c-fGHEql-ibHdijW-css .gc-c-ejKCwK .gc-c-fZCLQP.gc-c-fZCLQP-gTjmqS-align-left {
+    align-items: flex-end !important;
+    max-width: 520px !important;
+	padding-bottom: 110px !important;
+	position: absolute;
+	bottom: 0;
+}
+
+
+.gc-c-fGHEql.gc-c-fGHEql-ibHdijW-css .gc-c-ejKCwK .gc-c-fZCLQP.gc-c-fZCLQP-gTjmqS-align-left.gc-c-fZCLQP-ijroWjL-css .gc-c-dhzjXW h1 {
+	font-size: 38px !important;
+}
+
+.hero-background-gradient {
+	background-image: linear-gradient(45deg, rgb(0 0 0 / 70%), transparent, transparent) !important;
+    position: absolute !important;
+	min-width: 100% !important;
+	min-height: 100% !important;
+}
+
+.gc-c-fGHEql-ibHdijW-css .gc-c-ejKCwK-idfGVbC-css .gc-c-fZCLQP-ijroWjL-css .gc-c-dhzjXW .hero-logo {
+    background-image: url(https://files-prod.tilmaplatform.com/cdn-cgi/image/width=1400/2023/12/10/02/20/18/7a7587aa-f154-4f31-9ac6-07bccc64a16b/logo-02.png);
+    display: inline !important;
+    height: 90px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+/* END – HERO BACKGROUND GRADIENT REQUIRES JAVASCRIPT */
+
+/* BUTTON FILLED RESTYLE */
+
+.gc-c-hFRvnN.gc-c-hFRvnN-kcNuXb-variant-button.gc-c-hFRvnN-gTHPfY-cv {
+	background-color: #BC822F !important;
+	color: #ffffff !important;
+	border: none !important;
+}
+/* END */
+
+/* BUTTON NOT FILLED RESTYLE */
+
+/* END */
+
+/* ALL BUTTONS RESTYLE */
+
+.gc-c-hFRvnN.gc-c-hFRvnN-kcNuXb-variant-button.gc-c-hFRvnN-gTHPfY-cv {
+	border-radius: 5px !important;
+	letter-spacing: 0.04em !important;
+	text-transform: uppercase !important;
+	font-size: 14px;
+}
+
+.gc-c-hFRvnN.gc-c-hFRvnN-kJuTtL-cv {
+	font-size: 14px;
+	border-radius: 5px !important;
+	border-width: 2px;
+	letter-spacing: 0.04em !important;
+	text-transform: uppercase !important;
+	border-color: rgb(200 191 184 / 50%);
+}
+
+/* END */
+
+/* FONT EDIT AND BUTTON FOR TEXT AND IMAGE */
+
+/* 
+.gc-c-fGHEql .gc-c-ejKCwK .gc-c-eaYbKQ .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-dhzjXW-kUiXCE-space-large .gc-c-VjQXH.gc-c-VjQXH-cFZgux-size-headline {
+	font-size: 50px !important;
+	color: #0C0C22 !important;
+	line-height: 1.2em !important;
+}
+
+.gc-c-fGHEql .gc-c-ejKCwK .gc-c-eaYbKQ .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-dhzjXW-kUiXCE-space-large .gc-c-MIlFu.gc-c-MIlFu-gkhbtC-size-body {
+	color: #0C0C22 !important;
+	font-size: 19px !important;
+	line-height: 1.5em !important;
+
+}
+
+*/
+
+.gc-c-fGHEql .gc-c-ejKCwK .gc-c-eaYbKQ .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-dhzjXW-kUiXCE-space-large .gc-c-dhzjXW .gc-c-hFRvnN.gc-c-hFRvnN-kcNuXb-variant-button.gc-c-hFRvnN-kJuTtL-cv {
+	border-color: #DFB06D;
+}
+
+.gc-c-fGHEql .gc-c-ejKCwK .gc-c-eaYbKQ .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-dhzjXW-kUiXCE-space-large .gc-c-dhzjXW .gc-c-hFRvnN.gc-c-hFRvnN-kcNuXb-variant-button.gc-c-hFRvnN-kJuTtL-cv:hover {
+	background-color: #DFB06D;
+	border-color: #DFB06D;
+	color: #ffffff;
+}
+
+/* END */
+
+/* SORT OF FIX FULL WIDTH IMAGE BLEED WITH TEXT */
+.gc-c-jhQLfO.gc-c-jhQLfO-icDFTIH-css {
+    justify-content: center !important;
+	display: flex !important;
+}
+
+
+
+/* FIX NO SPACING FULL WIDTH CARDS */
+
+.gc-c-cdWtlk-jYzIHu-layout-overlay {
+	bottom: unset !important;
+	top: 0 !important;
+}
+
+.gc-c-dXOhBl-ettWMn-cv::before {
+	background-image: linear-gradient(168deg, rgb(0 0 0 / 80%), rgb(0 0 0 / 30%), transparent) !important;
+}
+
+.gc-c-eaYbKQ.gc-c-bxwFuo.gc-c-bxwFuo-okNAc-spacing-none {
+	display: flex !important;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.gc-c-bxwFuo-okNAc-spacing-none {
+	gap: 10px !important;
+}
+
+/* END */
+
+/* NO RADIUS ON CARDS */
+.gc-c-dXOhBl-fiArHK-layout-discrete {
+	border-radius: 0 !important;
+}
+
+/* FULL WIDTH GRID ON PORTRAIT CARDS SPECIFIC SLICE */
+
+.gc-c-fGHEql.gc-c-fGHEql-ikqtgyu-css .gc-c-ejKCwK.gc-c-ejKCwK-igQSjaT-css .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-PJLV .gc-c-eaYbKQ.gc-c-bxwFuo.gc-c-eaYbKQ-igjfgbe-css .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-jbYfIj .gc-c-dXOhBl {
+	max-height: 400px !important;
+}
+
+.gc-c-fGHEql.gc-c-fGHEql-ikqtgyu-css .gc-c-ejKCwK.gc-c-ejKCwK-igQSjaT-css {
+	min-width: 100% !important;
+	padding-top: 15px !important;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+.gc-c-fGHEql.gc-c-fGHEql-ikqtgyu-css .gc-c-ejKCwK.gc-c-ejKCwK-igQSjaT-css .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-PJLV .gc-c-eaYbKQ.gc-c-bxwFuo.gc-c-eaYbKQ-igjfgbe-css .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-jbYfIj .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-cdWtlk.gc-c-dhzjXW-icmVlgk-css {
+	position: absolute !important;
+	padding-left: 40px !important;
+	padding-top: 40px !important;
+	padding-bottom: 40px !important;
+	padding-right: 60px !important;
+	height: 100% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+	background-image: linear-gradient(168deg, rgb(0 0 0 / 80%), rgb(0 0 0 / 30%), transparent) !important;
+}
+
+
+.gc-c-fGHEql.gc-c-fGHEql-ikqtgyu-css .gc-c-ejKCwK.gc-c-ejKCwK-igQSjaT-css .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-PJLV .gc-c-eaYbKQ.gc-c-bxwFuo.gc-c-eaYbKQ-igjfgbe-css .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-jbYfIj .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-cdWtlk.gc-c-dhzjXW-icmVlgk-css h5 {
+	font-size: 24px !important;
+	line-height: 1.4em !important;
+	font-weight: 500 !important;
+}
+
+
+
+.gc-c-fGHEql.gc-c-fGHEql-ikqtgyu-css .gc-c-ejKCwK.gc-c-ejKCwK-igQSjaT-css .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-PJLV .gc-c-eaYbKQ.gc-c-bxwFuo.gc-c-eaYbKQ-igjfgbe-css .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-jbYfIj .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-cdWtlk.gc-c-dhzjXW-icmVlgk-css a {
+	font-size: 18px !important;
+	font-weight: 500 !important;
+	text-decoration: none !important;
+	display: flex;
+    align-items: center;
+}
+
+/* END FIX PORTRAIT GRID STYLE NON-COLLECTION CARD */
+
+/* NON-COLLECTION LANDSCAPE CARD GRID */
+
+/* END */
+
+/* ALL CARDS WITH IMAGES */
+.gc-c-dhzjXW.gc-c-jbYfIj-gjemnU-hasImage-true.gc-c-iTKOFX.gc-c-jbYfIj {
+	background-color: #fff !important;
+}
+
+.gc-c-dhzjXW.gc-c-iTKOFX.gc-c-cdWtlk {
+	padding: 40px !important;
+}
+
+.gc-c-dhzjXW.gc-c-iTKOFX.gc-c-cdWtlk span {
+	line-height: 1.6em !important;
+	font-size: 19px !important;
+}
+
+/* END */
+
+/* TEXT WITH IMAGE */
+
+.gc-c-ejKCwK.gc-c-ejKCwK-igQSjaT-css .gc-c-eaYbKQ-ieyWYQL-css .gc-c-jhQLfO.gc-c-jhQLfO-icDFTIH-css {
+    justify-content: flex-start !important;
+    padding-left: 40px !important;
+    padding-top: 80px !important;
+    padding-right: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+.gc-c-ejKCwK.gc-c-ejKCwK-igQSjaT-css .gc-c-eaYbKQ.gc-c-eaYbKQ-ieyWYQL-css {
+	background-color: #ffffff !important;
+}
+
+/* END TEXT WITH IMAGE */
+
+
+/* TEXT BLOCK */
+
+.gc-c-dhzjXW.gc-c-ejCoEP.gc-c-dhzjXW-dvnNgW-space-medium.gc-c-ejCoEP-jroWjL-align-center.gc-c-ejCoEP-bICGYT-justify-center {
+	margin-top: 18px;
+}
+
+.gc-c-dhzjXW.gc-c-ejCoEP.gc-c-dhzjXW-dvnNgW-space-medium.gc-c-ejCoEP-jroWjL-align-center.gc-c-ejCoEP-bICGYT-justify-center a {
+	border-color: #DFB06D;
+}
+
+.gc-c-dhzjXW.gc-c-ejCoEP.gc-c-dhzjXW-dvnNgW-space-medium.gc-c-ejCoEP-jroWjL-align-center.gc-c-ejCoEP-bICGYT-justify-center a:hover {
+	border-color: #DFB06D;
+	background-color: #DFB06D;
+	color: #ffffff;
+}
+
+/* END TEXT BLOCK */
+
+/* MASS TIMES CARD STYLING COLLECTION PULLED INFO */
+
+.gc-c-VjQXH.gc-c-VjQXH-cFZgux-size-headline.gc-c-jTNYrN {
+	text-decoration: none !important;
+}
+
+
+.gc-c-fGHEql .gc-c-ejKCwK .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-PJLV.gc-c-dhzjXW-kUiXCE-space-large.gc-c-iTKOFX-awKDG-justify-start.gc-c-iTKOFX-irEjuD-align-stretch .gc-c-eaYbKQ.gc-c-kYQGmh.gc-c-eaYbKQ-gCVLRQ-space-medium.gc-c-eaYbKQ-gRZHsh-columns-12.gc-c-kYQGmh-fVlWzK-spacing-auto .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-hOvHt.gc-c-dhzjXW-kyCIPD-space-none.gc-c-dhzjXW-iTKOFX-orientation-vertical.gc-c-iTKOFX-awKDG-justify-start.gc-c-iTKOFX-irEjuD-align-stretch.gc-c-hOvHt-ietuGy-hasHref-false.gc-c-hOvHt-kXrvyQ-hasImage-false.gc-c-hOvHt-iFMlYh-layout-discrete.gc-c-hOvHt-kmANXN-orientation-vertical.gc-c-hOvHt-gsGigd-imageOrder-first .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-cdWtlk.gc-c-dhzjXW-dvnNgW-space-medium.gc-c-dhzjXW-iTKOFX-orientation-vertical.gc-c-iTKOFX-bICGYT-justify-center.gc-c-cdWtlk-hupBNV-layout-discrete.gc-c-cdWtlk-hTwWop-hasImage-false .gc-c-VjQXH.gc-c-VjQXH-cFZgux-size-headline.gc-c-jTNYrN {
+	font-weight: 500 !important;
+	font-size: 30px !important;
+	line-height: 1.2em !important;
+	margin-bottom: 20px !important;
+}
+
+/* END MASS TIMES CARD STYLING */
+
+/* EDIT PORTRAIT CARD FOR COLLECTION */
+
+.gc-c-dhzjXW.gc-c-iTKOFX.gc-c-hOvHt.gc-c-dhzjXW-kyCIPD-space-none.gc-c-dhzjXW-iTKOFX-orientation-vertical.gc-c-iTKOFX-awKDG-justify-start.gc-c-iTKOFX-irEjuD-align-stretch.gc-c-hOvHt-gsmDXe-hasHref-true.gc-c-hOvHt-gjemnU-hasImage-true.gc-c-hOvHt-iFMlYh-layout-discrete.gc-c-hOvHt-kmANXN-orientation-vertical.gc-c-hOvHt-gsGigd-imageOrder-first .gc-c-dXOhBl.gc-c-dXOhBl-fiArHK-layout-discrete.gc-c-dXOhBl-iydAuT-radius-none.gc-c-dXOhBl-jYlUiR-aspectRatio-portrait {
+	max-height: 380px !important;
+}
+
+.gc-c-dhzjXW.gc-c-iTKOFX.gc-c-hOvHt.gc-c-dhzjXW-kyCIPD-space-none.gc-c-dhzjXW-iTKOFX-orientation-vertical.gc-c-iTKOFX-awKDG-justify-start.gc-c-iTKOFX-irEjuD-align-stretch.gc-c-hOvHt-gsmDXe-hasHref-true.gc-c-hOvHt-gjemnU-hasImage-true.gc-c-hOvHt-iFMlYh-layout-discrete.gc-c-hOvHt-kmANXN-orientation-vertical.gc-c-hOvHt-gsGigd-imageOrder-first {
+	gap: unset !important;
+	background-color: #ffffff !important;
+}
+
+.gc-c-ejKCwK .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-PJLV.gc-c-dhzjXW-kUiXCE-space-large.gc-c-iTKOFX-awKDG-justify-start.gc-c-iTKOFX-irEjuD-align-stretch .gc-c-eaYbKQ.gc-c-kYQGmh.gc-c-eaYbKQ-gCVLRQ-space-medium.gc-c-eaYbKQ-gRZHsh-columns-12.gc-c-kYQGmh-fVlWzK-spacing-auto .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-hOvHt.gc-c-dhzjXW-kyCIPD-space-none.gc-c-dhzjXW-iTKOFX-orientation-vertical.gc-c-iTKOFX-awKDG-justify-start.gc-c-iTKOFX-irEjuD-align-stretch.gc-c-hOvHt-gsmDXe-hasHref-true.gc-c-hOvHt-gjemnU-hasImage-true.gc-c-hOvHt-iFMlYh-layout-discrete.gc-c-hOvHt-kmANXN-orientation-vertical.gc-c-hOvHt-gsGigd-imageOrder-first .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-cdWtlk.gc-c-dhzjXW-dvnNgW-space-medium.gc-c-dhzjXW-iTKOFX-orientation-vertical.gc-c-iTKOFX-bICGYT-justify-center.gc-c-iTKOFX-irEjuD-align-stretch.gc-c-cdWtlk-hupBNV-layout-discrete {
+	padding: 30px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+	color: #0C0C22;
+}
+
+.gc-c-ejKCwK .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-PJLV.gc-c-dhzjXW-kUiXCE-space-large.gc-c-iTKOFX-awKDG-justify-start.gc-c-iTKOFX-irEjuD-align-stretch .gc-c-eaYbKQ.gc-c-kYQGmh.gc-c-eaYbKQ-gCVLRQ-space-medium.gc-c-eaYbKQ-gRZHsh-columns-12.gc-c-kYQGmh-fVlWzK-spacing-auto .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-hOvHt.gc-c-dhzjXW-kyCIPD-space-none.gc-c-dhzjXW-iTKOFX-orientation-vertical.gc-c-iTKOFX-awKDG-justify-start.gc-c-iTKOFX-irEjuD-align-stretch.gc-c-hOvHt-gsmDXe-hasHref-true.gc-c-hOvHt-gjemnU-hasImage-true.gc-c-hOvHt-iFMlYh-layout-discrete.gc-c-hOvHt-kmANXN-orientation-vertical.gc-c-hOvHt-gsGigd-imageOrder-first .gc-c-dhzjXW.gc-c-iTKOFX.gc-c-cdWtlk.gc-c-dhzjXW-dvnNgW-space-medium.gc-c-dhzjXW-iTKOFX-orientation-vertical.gc-c-iTKOFX-bICGYT-justify-center.gc-c-iTKOFX-irEjuD-align-stretch.gc-c-cdWtlk-hupBNV-layout-discrete span span {
+	font-size: 19px !important;
+	line-height: 1.5em !important;
+	color: #0C0C22 !important;
+}
+
+.gc-c-VjQXH.gc-c-VjQXH-fIdKKn-size-groupHeadline {
+	font-size: 14px !important;
+	text-transform: uppercase !important;
+	color: #DB7C00 !important;
+	letter-spacing: 0.1em !important;
+	font-weight: 400 !important;
+	margin-bottom: 5px !important;
+}
+
+.gc-c-dhzjXW.gc-c-iTKOFX.gc-c-cdWtlk.gc-c-dhzjXW-dvnNgW-space-medium.gc-c-dhzjXW-iTKOFX-orientation-vertical.gc-c-iTKOFX-bICGYT-justify-center.gc-c-iTKOFX-irEjuD-align-stretch.gc-c-cdWtlk-hupBNV-layout-discrete h5 {
+	font-weight: 500 !important;
+	line-height: 1.4em !important;
+	font-size: 24px !important;
+}
+
+/* END PORTRAIT CARD FOR COLLECTION */
+
+/* FOOTER */
+
+:root :where(.rails-element-root) .border-2px, :root .rails-element-root .border-2px, .org-theme :where(.rails-element-root) .border-2px, .org-theme .rails-element-root .border-2px {
+	border: 0px !important;
+}
+
+:root :where(.rails-element-root) .bg-gray-100, :root .rails-element-root .bg-gray-100, .org-theme :where(.rails-element-root) .bg-gray-100, .org-theme .rails-element-root .bg-gray-100 {
+	background-color: #212A2E !important;
+}
+
+.footer {
+	color: #fff;
+	font-family: "Work Sans" !important;
+}
+
+.col-md-4.col-lg-6 .btn.btn-link {
+	font-family: "Work Sans" !important;
+	font-size: 17px !important;
+	text-transform: none !important;
+	color: #ffffff !important;
+	text-decoration: none !important;
+	margin-bottom: 14px !important;
+}
+
+:root :where(.rails-element-root) .btn-link:after, :root .rails-element-root .btn-link:after, .org-theme :where(.rails-element-root) .btn-link:after, .org-theme .rails-element-root .btn-link:after {
+	height: 0px !important;
+}
+
+.col-md-4.col-lg-3.mb-3.mb-lg-5 a {
+	border-radius: 5px !important;
+	border-color: #ffffff !important;
+	color: #ffffff !important;
+	text-transform: uppercase !important;
+	font-size: 14px !important;
+	letter-spacing: 0.04em !important;
+	font-weight: 500 !important;
+}
+
+.col-md-4.col-lg-3.mb-3.mb-lg-5 a:hover {
+	background-color: #ffffff !important;
+	color: #000 !important;
+}
+
+.ml-auto.d-flex a i {
+	color: #ffffff !important;
+}
